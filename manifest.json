@@ -1,0 +1,26 @@
+{
+  "name": "Federtennis extension",
+  "version": "1.0",
+  "description": "get data from federtennis website",
+  "permissions": [
+    "activeTab",
+    "declarativeContent",
+    "storage"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "64": "images/favicon.png"
+    }
+  },
+  "icons": {
+    "64": "images/favicon.png"
+  },
+  "manifest_version": 2
+}
